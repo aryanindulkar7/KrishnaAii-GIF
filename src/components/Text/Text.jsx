@@ -87,7 +87,7 @@ function Text() {
           y: [-650, -600, -550, -500, -450, -400, -320, -250, -168],
           rotate: [-20, 20, -20, 50, -20, 50, -20, 50, 0],
         }}
-        transition={{ duration: 8 }}
+        transition={{ duration: 8 , ease: "easeInOut"}}
       >
         <motion.img
           animate={{ scale: 0.8 }}
